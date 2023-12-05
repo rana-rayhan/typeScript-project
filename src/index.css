@@ -1,13 +1,65 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.myApp {
+  width: 30%;
+  background-color: #1e78f3;
+  padding: 30px;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.myTodos {
+  width: 100%;
+  color: white;
+  display: grid;
+}
+
+.myTodo {
+  background: #5099ff;;
+  margin: 5px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+}
+
+.deleteButton {
+  border-radius: 10px;
+  border: none;
+  padding: 6px 26px;
+  background: #1e78f3;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.myInput {
+  width: 80%;
+  border: none;
+  height: 35px;
+  border-radius: 6px;
+  margin: 0px 4px;
+  padding: 10px;
+}
+
+.addButton {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-left: 4px;
+  background: white;
+}
+
+.myTodo h4 {
+  margin-top: 4px;
+}
+
+.todoTitleDiv {
+  width: 80%;
+  margin-top: 4px;
 }
